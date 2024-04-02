@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE book
+[
+
+<!ENTITY cur_book_name      "crifanlib_python" >
+<!ENTITY publish_date       "2013-09-29" >
+<!ENTITY release_version    "1.1" >
+
+<!ENTITY copyrith_year "2013" >
+<!ENTITY entity_common_multi_format     SYSTEM  "../../entity_common_multi_format.xml">
+<!ENTITY entity_common_publish_info     SYSTEM  "../../entity_common_publish_info.xml">
+]>
+
+<book version="5.0"
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:lang="zh_CN">
+
+<info>
+    <title>详解crifan的Python库：crifanLib.py</title>
+    <subtitle></subtitle>
+    <keywordset>
+        <keyword>crifanLib.py</keyword>
+        <keyword>crifanLib</keyword>
+        <keyword>Python</keyword>
+        <keyword>详解</keyword>
+        <keyword>函数用法举例</keyword>
+    </keywordset>
+
+    <abstract>
+        <para>本文主要介绍了我自己crifan的Python函数库crifanLib.py，包括解释crifanLib.py由来，以及其中各种函数的功能和用法示例。</para>
+        &entity_common_multi_format;
+    </abstract>
+
+    <revhistory>
+        <revision>
+            <revnumber>&release_version;</revnumber>
+            <date>&publish_date;</date>
+            <revremark>
+                <orderedlist>
+                    <listitem>把crifanLib.py从Python语言总结中整理出来单独成此book</listitem>
+                    <listitem>更新xml:id</listitem>
+                </orderedlist>
+            </revremark>
+            <authorinitials>crl</authorinitials>
+        </revision>
+    </revhistory>
+
+    &entity_common_publish_info;
+</info>
+
+<xi:include href="ch01_crifanlib_py_intro.xml" />
+<xi:include href="ch02_crifanlib_py_functions.xml" />
+<xi:include href="reference.xml" />
+
+</book>

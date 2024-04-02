@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE chapter
+[
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+]>
+
+<chapter    xml:id="ch01_crifanlib_py_intro"
+        xmlns="http://docbook.org/ns/docbook"
+        xmlns:xi="http://www.w3.org/2001/XInclude"
+        xmlns:xl="http://www.w3.org/1999/xlink"
+        >
+<title>crifanLib.py简介</title>
+
+<sect1 xml:id="what_is_crifanlib_py"><title>什么是crifanLib.py</title>
+    <para>之前在折腾<link xl:href="http://www.crifan.com/crifan_released_all/website/python/blogstowordpress/">将(新版)百度空间,网易163,新浪sina,QQ空间,人人网,CSDN,搜狐Sohu,博客大巴Blogbus,天涯博客,点点轻博客等博客搬家到WordPress</link>的过程中，先后遇到很多个问题，然后基本上也都自己解决了。对应的也写了相应的代码和函数。</para>
+    <para>后来就把其中比较常用或通用的功能，整理提取出来，放到一个单独的文件中，即crifanLib.py。</para>
+</sect1>
+
+<sect1 xml:id="where_download_crifanlib_py"><title>到哪里可以下载到crifanLib.py</title>
+    <para>该文件，之前是以帖子的方式贴出来的：<link xl:href="http://www.crifan.com/crifan_python_lib_crifanlib_py/">crifan的Python库：crifanLib.py</link></para>
+    <para>现在已放到<link xl:href="http://code.google.com/p/crifanlib/">google code中的crifanLib</link>中的<link xl:href="http://code.google.com/p/crifanlib/source/browse/trunk/python/crifanLib.py">crifanLib.py</link>，并且以后会同步保持最新版本的。</para>
+</sect1>
+
+</chapter>
